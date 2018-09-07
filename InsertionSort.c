@@ -1,3 +1,10 @@
+/*------------------------------------------------------------------------
+- Compilation: gcc InsertionSort.c -o Insertion
+- Execution: ./Insertion < test
+- Read a input with integers and sort them using insertion sort algorithm
+- ./Insertion < test
+- 1 2 3 4 5 6
+------------------------------------------------------------------------*/
 #include <stdio.h>
 #include <stdlib.h>
 int* insertion(int* a){
