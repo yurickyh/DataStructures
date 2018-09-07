@@ -24,8 +24,8 @@ int* read_file(const char* filename){
     a[0] = (i-1);
     return a;
 }
-int main(){
-    int* a = read_file("teste");
+int main(int argc, char * argv[]){
+    int* a = read_file(argv[1]);
     a = insertion(a);
     for(int i = 1; i <= a[0]; i++){
         printf("%d ", a[i]);
