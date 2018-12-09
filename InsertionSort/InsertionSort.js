@@ -1,3 +1,8 @@
+/*------------------------------------------------------------------------
+- Execution: node InsertionSort
+- Sort a array of values using insertion sort algorithm
+- Expected output: 1 2 3 4 5 6
+------------------------------------------------------------------------*/
 function main(){
     var v = [3,4,2,1,6,5]; //array of values to be sorted
     insertionSort(v); //exec insertion sort
