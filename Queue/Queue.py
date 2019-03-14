@@ -26,7 +26,7 @@ class Queue:
     
     def peek(self):
         if(self.n <= 0):
-            print("Impossible to dequeue because the queue don't have any element.")
+            print("Impossible to peek because the queue don't have any element.")
         else:
             print(self.first.content)
 
